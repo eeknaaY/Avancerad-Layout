@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - The Lorem Ipsum</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css" />
+    <link rel="stylesheet" href="./static/css/headlines.css">
+    <link rel="stylesheet" href="./static/css/contact.css">
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>Contact - The Lorem Ipsum</h1>
+
+            <nav>
+                <a href="./headlines.html">Headlines</a>
+                <a href="./contact.html">Contact</a>
+            </nav>
+        </header>
+        <form action="Temp.html">
+            <div class="input1">
+                <fieldset>
+                    <legend>Personalia </legend>
+                    <label>Name
+                        <input type="text" required>
+                    </label>
+                    <label>Email
+                        <input type="email" required>
+                    </label>
+                    <label>Country
+                        <select id="Country" required>
+                            <option value="">[select one]</option>
+                            <option value="1">US</option>
+                            <option value="2">UK</option>
+                            <option value="3">AUS</option>
+                            <option value="4">CAN</option>
+                        </select>
+                    </label>
+                </fieldset>
+            </div>
+            <fieldset class="input2">
+                <legend>Select</legend>
+                <p>What department do you want to contact?</p>
+                <label>
+                    <input type="checkbox" value="contact-news">News
+                </label>
+                <label>
+                    <input type="checkbox" value="contact-sports">Sports
+                </label>
+
+                <p>Do you want a replay?</p>
+                <label>
+                    <input type="radio" name="department" required>Yes
+                </label>
+                <label>
+                    <input type="radio" name="department">No
+                </label>
+            </fieldset>
+            <div class="submitButton">
+                <input type="submit">
+            </div>
+        </form>
+        <footer>
+            <img class="sunimg" src="./img/sun.png" alt="Sun">
+            London 19&#176;
+        </footer>
+    </div>
+</body>
+
+</html>
