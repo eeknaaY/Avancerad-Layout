@@ -23,15 +23,16 @@ header {
 header nav {
     display: flex;
     flex-direction: column;
-    gap: 3px;
+    gap: 5px;
 }
 
 header nav a {
+    font-size: 16px;
     text-align: center;
     text-decoration: none;
     background-color: aliceblue;
     border-radius: 15px;
-    padding: 0 5px;
+    padding: 2px 8px;
     color: rgb(93, 31, 93);
 }
 
